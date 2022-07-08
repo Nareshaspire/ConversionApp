@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Converter app</string>
+    <string-array name="conversion_data">
+        <item>Centimeter - Inch</item>
+        <item>Celsius - Kelvin</item>
+        <item>Kilogram - Lb</item>
+    </string-array>
+</resources>
