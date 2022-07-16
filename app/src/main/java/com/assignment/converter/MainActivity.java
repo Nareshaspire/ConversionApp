@@ -58,16 +58,11 @@ public class MainActivity extends AppCompatActivity {
         });
         //text changed event listener for input text
         inputText.addTextChangedListener(new TextWatcher() {
-
             public void afterTextChanged(Editable s) {
-
-
             }
 
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
             }
-
             public void onTextChanged(CharSequence s, int start, int before, int count) {
 
                 if (inputStatus)
@@ -137,7 +132,6 @@ public class MainActivity extends AppCompatActivity {
             default:
                 return "";
         }
-
     }
 //different conversions been used selected data type as double
     private String connvertData(double parseDouble) {
@@ -151,7 +145,6 @@ public class MainActivity extends AppCompatActivity {
             default:
                 return "";
         }
-
     }
 //setup of spinner for the selection of conversions
     private void setSpinner() {
@@ -189,5 +182,4 @@ public class MainActivity extends AppCompatActivity {
         DecimalFormat df = new DecimalFormat("0.00");
         return Double.parseDouble(df.format(parseDouble));
     }
-
 }
